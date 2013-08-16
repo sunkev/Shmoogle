@@ -1,5 +1,35 @@
-li {
-  list-style:none;
+.navigation-container {
+  background-color: #303030;
+  border: solid;
+  border-color: #303030;
+  border-width: 8px;
+}
+
+body {
   padding: 0;
   margin: 0;
+  font-family:arial;
+  font-size: 14px;
+}
+
+.nav {
+  padding: 0;
+  margin: 0;
+  list-style:none;
+}
+
+.nav > li {
+  display:inline-block;
+  margin: 4px;
+}
+
+
+.nav > li > a {
+  color: #BABABA;
+  text-decoration: none;
+}
+
+.nav > li > .active,
+.nav > li > a:hover {
+  color:white;
 }
